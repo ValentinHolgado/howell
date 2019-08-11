@@ -1,0 +1,71 @@
+
+**** Build of configuration Release for project androidFontExample ****
+
+make Release PLATFORM_OS=Android 
+Compiling OF library for Release
+make[1]: Entering directory `/e/Facultad/Tesis/of_v0.8.4_android_release/libs/openFrameworksCompiled/project'
+make[2]: Nothing to be done for `ReleaseABI'.
+make[2]: Nothing to be done for `ReleaseABI'.
+make[2]: Nothing to be done for `ReleaseABI'.
+make[2]: Nothing to be done for `ReleaseABI'.
+
+Done!
+make[1]: Leaving directory `/e/Facultad/Tesis/of_v0.8.4_android_release/libs/openFrameworksCompiled/project'
+
+
+Compiling androidFontExample for Release
+make[1]: Entering directory `/e/Facultad/Tesis/of_v0.8.4_android_release/examples/android/androidFontExample'
+make[1]: Nothing to be done for `ReleaseABI'.
+make[1]: Leaving directory `/e/Facultad/Tesis/of_v0.8.4_android_release/examples/android/androidFontExample'
+make[1]: Entering directory `/e/Facultad/Tesis/of_v0.8.4_android_release/examples/android/androidFontExample'
+make[1]: Nothing to be done for `ReleaseABI'.
+make[1]: Leaving directory `/e/Facultad/Tesis/of_v0.8.4_android_release/examples/android/androidFontExample'
+make[1]: Entering directory `/e/Facultad/Tesis/of_v0.8.4_android_release/examples/android/androidFontExample'
+make[1]: Nothing to be done for `ReleaseABI'.
+make[1]: Leaving directory `/e/Facultad/Tesis/of_v0.8.4_android_release/examples/android/androidFontExample'
+make[1]: Entering directory `/e/Facultad/Tesis/of_v0.8.4_android_release/examples/android/androidFontExample'
+make[1]: Nothing to be done for `ReleaseABI'.
+make[1]: Leaving directory `/e/Facultad/Tesis/of_v0.8.4_android_release/examples/android/androidFontExample'
+
+make[1]: Entering directory `/e/Facultad/Tesis/of_v0.8.4_android_release/examples/android/androidFontExample'
+compressing and copying resources from bin/data into res
+cd /e/Facultad/Tesis/of_v0.8.4_android_release/examples/android/androidFontExample; \
+	if [ -d "bin/data" ]; then \
+		mkdir -p res/raw; \
+		rm res/raw/androidfontexampleresources.zip; \
+		if [ "windows" = "windows" ]; then \
+			echo "Windows Platform. Running Zip..."; \
+			cmd //c ..\\..\\..\\libs\\openFrameworksCompiled\\project\\android\\windows\\zip -r ./res/raw/androidfontexampleresources.zip ./bin/data/ && exit; \
+		else \
+			cd bin/data; \
+			zip -r ../../res/raw/androidfontexampleresources.zip *; \
+			cd ../..; \
+		fi; \
+	fi
+Windows Platform. Running Zip...
+  adding: bin/data/ (188 bytes security) (stored 0%)
+  adding: bin/data/.gitkeep (188 bytes security) (stored 0%)
+  adding: bin/data/frabk.ttf (188 bytes security) (deflated 39%)
+  adding: bin/data/verdana.ttf (188 bytes security) (deflated 44%)
+copying debugging binaries for armv5 armv7 neon x86
+create gdb.setup for armeabi
+create gdb.setup for armeabi-v7a
+create gdb.setup for x86
+creating Android.mk and Application.mk
+#@echo updating ofAndroidLib project
+#@cd ../../../addons/ofxAndroid/ofAndroidLib; \
+	#if [ "windows" = "windows" ]; then \
+	#	cmd //c C:/Users/Living/Desktop/adt-bundle-windows-x86-20140702/sdk/tools/android.bat update project --target android-17 --path .; \
+	#else \
+	#	C:/Users/Living/Desktop/adt-bundle-windows-x86-20140702/sdk/tools/android update project --target android-17 --path .; \
+	#fi
+#@echo updating current project
+#@cd /e/Facultad/Tesis/of_v0.8.4_android_release/examples/android/androidFontExample; \
+	#if [ "windows" = "windows" ]; then \
+	#	cmd //c C:/Users/Living/Desktop/adt-bundle-windows-x86-20140702/sdk/tools/android.bat update project --target android-17 --path .; \
+	#else \
+	#	C:/Users/Living/Desktop/adt-bundle-windows-x86-20140702/sdk/tools/android update project --target android-17 --path .; \
+	#fi
+make[1]: Leaving directory `/e/Facultad/Tesis/of_v0.8.4_android_release/examples/android/androidFontExample'
+
+**** Build Finished ****

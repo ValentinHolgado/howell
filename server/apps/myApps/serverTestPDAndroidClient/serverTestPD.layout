@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="release" />
+	<File name="..\..\..\addons\ofxOsc\src\ofxOscSender.h" open="1" top="0" tabpos="7" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2181" topLine="43" />
+		</Cursor>
+	</File>
+	<File name="src\main.cpp" open="1" top="0" tabpos="17" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="0" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="..\..\..\addons\ofxOsc\src\ofxOscReceiver.h" open="1" top="0" tabpos="12" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2880" topLine="72" />
+		</Cursor>
+	</File>
+	<File name="..\..\..\addons\ofxPd\src\ofxPd.h" open="0" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="5998" topLine="159" />
+		</Cursor>
+	</File>
+	<File name="..\..\..\addons\ofxNetwork\src\ofxNetwork.h" open="0" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="14" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="..\..\..\addons\ofxOsc\src\ofxOscMessage.h" open="1" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1340" topLine="27" />
+		</Cursor>
+	</File>
+	<File name="..\..\..\addons\ofxPd\libs\libpd\cpp\PdReceiver.hpp" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="863" topLine="2" />
+		</Cursor>
+	</File>
+	<File name="..\..\..\addons\ofxUI\src\ofxUICanvas.h" open="0" top="0" tabpos="10" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="4864" topLine="92" />
+		</Cursor>
+	</File>
+	<File name="..\..\..\addons\ofxOsc\libs\oscpack\src\ip\PacketListener.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1501" topLine="9" />
+		</Cursor>
+	</File>
+	<File name="src\testApp.h" open="1" top="0" tabpos="18" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="264" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="..\..\..\addons\ofxPd\libs\libpd\pure-data\extra\bonk~\bonk~.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="5732" topLine="180" />
+		</Cursor>
+	</File>
+	<File name="..\..\..\addons\ofxUI\src\ofxUILabel.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1319" topLine="5" />
+		</Cursor>
+	</File>
+	<File name="..\..\..\addons\ofxOsc\src\ofxOscArg.h" open="1" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1253" topLine="113" />
+		</Cursor>
+	</File>
+	<File name="..\..\..\addons\ofxOsc\libs\oscpack\src\osc\OscReceivedElements.h" open="1" top="0" tabpos="10" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="945" topLine="129" />
+		</Cursor>
+	</File>
+	<File name="src\AppCore.h" open="1" top="0" tabpos="15" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="268" topLine="4" />
+		</Cursor>
+	</File>
+	<File name="..\..\..\addons\ofxOsc\src\ofxOscSender.cpp" open="1" top="0" tabpos="8" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2602" topLine="65" />
+		</Cursor>
+	</File>
+	<File name="src\testApp.cpp" open="1" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="683" topLine="62" />
+		</Cursor>
+	</File>
+	<File name="..\..\..\addons\ofxOsc\libs\oscpack\src\osc\OscPacketListener.h" open="1" top="0" tabpos="13" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2109" topLine="38" />
+		</Cursor>
+	</File>
+	<File name="..\..\..\addons\ofxPd\src\ofxPd.cpp" open="0" top="0" tabpos="7" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="0" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="..\..\..\addons\ofxOsc\src\ofxOscReceiver.cpp" open="1" top="0" tabpos="14" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="3462" topLine="96" />
+		</Cursor>
+	</File>
+	<File name="..\..\..\addons\ofxOsc\libs\oscpack\src\ip\win32\UdpSocketWin.cpp" open="1" top="0" tabpos="9" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="10436" topLine="447" />
+		</Cursor>
+	</File>
+	<File name="..\..\..\addons\ofxOsc\src\ofxOscBundle.h" open="1" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1109" topLine="28" />
+		</Cursor>
+	</File>
+	<File name="..\..\..\addons\ofxPd\libs\libpd\cpp\PdTypes.cpp" open="0" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="442" topLine="15" />
+		</Cursor>
+	</File>
+	<File name="..\..\..\addons\ofxOsc\libs\oscpack\src\ip\UdpSocket.h" open="1" top="0" tabpos="16" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="5212" topLine="124" />
+		</Cursor>
+	</File>
+	<File name="..\..\..\addons\ofxNetwork\src\ofxTCPServer.cpp" open="1" top="0" tabpos="11" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1853" topLine="72" />
+		</Cursor>
+	</File>
+	<File name="..\..\..\addons\ofxUI\src\ofxUIDefines.h" open="0" top="0" tabpos="9" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1308" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="..\..\..\addons\ofxOsc\src\ofxOsc.h" open="1" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1107" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="src\AppCore.cpp" open="1" top="1" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="10223" topLine="99" />
+		</Cursor>
+	</File>
+</CodeBlocks_layout_file>

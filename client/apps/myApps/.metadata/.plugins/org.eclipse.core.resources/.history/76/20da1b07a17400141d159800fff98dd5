@@ -1,0 +1,193 @@
+package cc.openframeworks.Howell;
+
+import android.app.AlertDialog;
+import android.app.Dialog;
+import android.content.DialogInterface;
+import android.os.Bundle;
+import android.view.KeyEvent;
+import android.view.LayoutInflater;
+import android.view.Menu;
+import android.view.MenuInflater;
+import android.view.MenuItem;
+import android.view.Window;
+import android.view.WindowManager;
+import android.widget.EditText;
+import android.widget.Toast;
+import cc.openframeworks.OFAndroid;
+
+public class OFActivity extends cc.openframeworks.OFActivity{
+	
+    public static native void connectToServer(String ipAddress);
+    public static native void sendClientName(String tClientName);
+	
+    @Override
+    public void onCreate(Bundle savedInstanceState)
+    { 
+        super.onCreate(savedInstanceState);
+        
+        requestWindowFeature(Window.FEATURE_NO_TITLE);
+        getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, 
+                                WindowManager.LayoutParams.FLAG_FULLSCREEN);
+        
+        getWindow().addFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON);
+        
+        setContentView(R.layout.main);
+        
+        String packageName = getPackageName();
+
+        ofApp = new OFAndroid(packageName,this);
+        
+    }
+	
+	@Override
+	public void onDetachedFromWindow() {
+	}
+	
+    @Override
+    protected void onPause() {
+        super.onPause();
+        ofApp.pause();
+        
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+        ofApp.resume();
+    }
+    
+    @Override
+    public boolean onKeyDown(int keyCode, KeyEvent event) {
+	if (OFAndroid.keyDown(keyCode, event)) {
+	    return true;
+	} else {
+	    return super.onKeyDown(keyCode, event);
+	}
+    }
+    
+    @Override
+    public boolean onKeyUp(int keyCode, KeyEvent event) {
+	if (OFAndroid.keyUp(keyCode, event)) {
+	    return true;
+	} else {
+	    return super.onKeyUp(keyCode, event);
+	}
+    }
+
+
+	OFAndroid ofApp;
+    
+	
+	
+    // Menus
+    // http://developer.android.com/guide/topics/ui/menus.html
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+    	// Create settings menu options from here, one by one or inflating an xml
+    	MenuInflater inflater = getMenuInflater();
+    	inflater.inflate(R.menu.options_menu, menu);
+    	return true;
+        //return super.onCreateOptionsMenu(menu);
+    }
+    
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+    	   	
+    	// This passes the menu option string to OF
+    	// you can add additional behavior from java modifying this method
+    	// but keep the call to OFAndroid so OF is notified of menu events
+    	
+    	//if(OFAndroid.menuItemSelected(item.getItemId())){
+    	//	return true;
+    	//}
+    	
+    	switch(item.getItemId())
+		{
+		case R.id.connect:
+			showConnectDialog();	//Desactivado para etapa de desarrollo
+			//connectToServer("192.168.0.15");
+			return true;
+		case R.id.disconnect:
+			return true;
+		default:
+			return super.onOptionsItemSelected(item);
+		}
+    	
+    	//return super.onOptionsItemSelected(item);
+    }
+    
+
+    @Override
+    public boolean onPrepareOptionsMenu (Menu menu){
+    	// This method is called every time the menu is opened
+    	//  you can add or remove menu options from here
+    	return  super.onPrepareOptionsMenu(menu);
+    }
+    
+    
+    //Método para el botón de conectar a servidor
+    //Solicita la IP del servidor
+    //Se podría dejar una IP predeterminada, y que el cliente se conecte automáticamente
+
+    public void showConnectDialog() {
+    	AlertDialog.Builder dialogBuilder = new AlertDialog.Builder(this);
+    	LayoutInflater inflater = getLayoutInflater();
+    	
+    	dialogBuilder.setTitle ("Conectar a servidor");
+    	dialogBuilder.setMessage("Ingrese la IP del servidor:");  
+    	
+    	dialogBuilder.setView(inflater.inflate(R.layout.connect_dialog, null))
+    		.setPositiveButton("Conectar", new DialogInterface.OnClickListener() {
+				
+				@Override
+				public void onClick(DialogInterface dialog, int id) {
+					Dialog f = (Dialog) dialog;
+					
+					EditText ipNameText;
+					//ipNameText.setText("192.168.0.27");
+					ipNameText = (EditText) f.findViewById(R.id.ipname);
+					
+					
+					connectToServer(ipNameText.getText().toString());
+					
+					Toast.makeText(getApplicationContext(), "Conectando a " + ipNameText.getText().toString(), Toast.LENGTH_SHORT).show();
+				}
+			});
+ 	
+    	AlertDialog alertDialog = dialogBuilder.create();
+    	alertDialog.show();  	
+    }
+    
+    //Método que muestra el diálogo para escribir y enviar un nombre de usuario al servidor
+    public void showSendNameDialog() {
+    	/*
+    	AlertDialog.Builder dialogBuilder = new AlertDialog.Builder(this);
+    	LayoutInflater inflater = getLayoutInflater();
+    	
+    	dialogBuilder.setTitle ("Nombre de Usuario");
+    	dialogBuilder.setMessage("Ingrese un nombre de usuario que servirá como identificación:");  
+    
+    	dialogBuilder.setView(inflater.inflate(R.layout.sendname_dialog, null))
+    		.setPositiveButton("Enviar", new DialogInterface.OnClickListener() {
+				
+				@Override
+				public void onClick(DialogInterface dialog, int id) {
+					Dialog f = (Dialog) dialog;
+					
+					EditText clientNameText;
+					
+					clientNameText = (EditText) f.findViewById(R.id.clientname);
+					
+					sendClientName(clientNameText.getText().toString());					
+				}
+			});
+ 		
+    	AlertDialog alertDialog = dialogBuilder.create();
+    	alertDialog.show();
+    	*/
+    }
+
+}
+
+
+

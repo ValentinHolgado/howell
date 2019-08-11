@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="release" />
+	<File name="src\testApp.h" open="0" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1032" topLine="19" />
+		</Cursor>
+	</File>
+	<File name="..\..\..\addons\ofxOsc\libs\oscpack\src\ip\posix\UdpSocket.cpp" open="0" top="0" tabpos="7" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1537" topLine="18" />
+		</Cursor>
+	</File>
+	<File name="..\..\..\addons\ofxOsc\libs\oscpack\src\ip\UdpSocket.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="5014" topLine="61" />
+		</Cursor>
+		<Folding>
+			<Collapse line="46" />
+			<Collapse line="74" />
+		</Folding>
+	</File>
+	<File name="..\..\..\addons\ofxNetwork\src\ofxTCPManager.cpp" open="0" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="3373" topLine="105" />
+		</Cursor>
+	</File>
+	<File name="..\..\..\addons\ofxNetwork\src\ofxTCPManager.h" open="0" top="0" tabpos="16" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="4220" topLine="142" />
+		</Cursor>
+	</File>
+	<File name="..\..\..\addons\ofxOsc\libs\oscpack\src\osc\OscOutboundPacketStream.cpp" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2996" topLine="120" />
+		</Cursor>
+	</File>
+	<File name="..\..\..\addons\ofxNetwork\src\ofxTCPServer.h" open="0" top="0" tabpos="15" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="730" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="..\..\..\addons\ofxOsc\src\ofxOsc.h" open="0" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1466" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="..\..\..\addons\ofxOsc\libs\oscpack\src\osc\OscReceivedElements.cpp" open="0" top="0" tabpos="7" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="8412" topLine="397" />
+		</Cursor>
+	</File>
+	<File name="..\..\..\addons\ofxOsc\libs\oscpack\src\osc\OscReceivedElements.h" open="0" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="12925" topLine="74" />
+		</Cursor>
+	</File>
+	<File name="..\..\..\addons\ofxOsc\libs\oscpack\src\osc\OscTypes.cpp" open="0" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1441" topLine="2" />
+		</Cursor>
+	</File>
+	<File name="..\..\..\addons\ofxOsc\src\ofxOscBundle.h" open="0" top="0" tabpos="10" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2383" topLine="22" />
+		</Cursor>
+	</File>
+	<File name="..\..\..\addons\ofxOsc\libs\oscpack\src\osc\OscTypes.h" open="0" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2552" topLine="79" />
+		</Cursor>
+	</File>
+	<File name="..\..\..\addons\ofxOsc\src\ofxOscMessage.cpp" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="5670" topLine="138" />
+		</Cursor>
+	</File>
+	<File name="..\..\..\addons\ofxOsc\src\ofxOscMessage.h" open="0" top="0" tabpos="9" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2039" topLine="60" />
+		</Cursor>
+	</File>
+	<File name="..\..\..\addons\ofxOsc\src\ofxOscReceiver.cpp" open="0" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1414" topLine="108" />
+		</Cursor>
+	</File>
+	<File name="..\..\..\addons\ofxNetwork\src\ofxNetworkUtils.h" open="0" top="0" tabpos="19" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="5292" topLine="62" />
+		</Cursor>
+	</File>
+	<File name="..\..\..\addons\ofxOsc\src\ofxOscReceiver.h" open="0" top="0" tabpos="14" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2795" topLine="54" />
+		</Cursor>
+	</File>
+	<File name="..\..\..\addons\ofxOsc\src\ofxOscSender.cpp" open="0" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="3128" topLine="79" />
+		</Cursor>
+	</File>
+	<File name="src\main.cpp" open="0" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="382" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="..\..\..\addons\ofxOsc\src\ofxOscSender.h" open="0" top="0" tabpos="8" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2156" topLine="36" />
+		</Cursor>
+	</File>
+	<File name="src\testApp.cpp" open="1" top="1" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="347" topLine="33" />
+		</Cursor>
+	</File>
+</CodeBlocks_layout_file>

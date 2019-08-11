@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Howell</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="connect">Conectar a Servidor</string>
+    <string name="disconnect">Desconectar del Servidor</string>
+    <string name="dibujar">Dibujar</string>
+    <string name="ipname">192.168.0.27</string>
+    <string name="clientname">Escriba un nombre de usuario</string>
+    
+</resources>

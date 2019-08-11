@@ -1,0 +1,17 @@
+
+**** Build of configuration Android for project openFrameworks ****
+
+make -C ../openFrameworksCompiled/project PLATFORM_OS=Android all 
+make: Entering directory `/e/Facultad/Tesis/of_v0.8.4_android_release/libs/openFrameworksCompiled/project'
+make[2]: `DebugABI' is up to date.
+
+Done!
+make[2]: Nothing to be done for `ReleaseABI'.
+make[2]: Nothing to be done for `ReleaseABI'.
+make[2]: Nothing to be done for `ReleaseABI'.
+make[2]: Nothing to be done for `ReleaseABI'.
+
+Done!
+make: Leaving directory `/e/Facultad/Tesis/of_v0.8.4_android_release/libs/openFrameworksCompiled/project'
+
+**** Build Finished ****

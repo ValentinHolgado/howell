@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Howell/srcJava/cc/openframeworks/androidClient&apos; to &apos;Howell&apos;" description="Rename resource &apos;androidClient&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="srcJava/cc/openframeworks/androidClient" name="Howell" stamp="1416598046842" updateReferences="true"/>
+</session>
